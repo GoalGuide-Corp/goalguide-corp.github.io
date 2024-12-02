@@ -48,11 +48,6 @@ The project utilizes the following technologies:
 - **Gwendolyn Smith-Hill**: UI/UX and Documentation
 
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-
 ## Additional Resources
 
 - [Final Project Report (PDF)](FinalReportComplete.pdf)
