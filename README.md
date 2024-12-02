@@ -53,3 +53,7 @@ The project utilizes the following technologies:
 - [Final Project Report (PDF)](FinalReportComplete.pdf)
 - [Project Presentation Video](presentation.mp4)
 - [GitHub Repository](https://github.com/your-username/goal-guide)
+
+
+## **Acknowledgments**
+Special thanks to the professor, our peers, and everyone who contributed to making GoalGuide a reality. Your feedback and support have been invaluable!
