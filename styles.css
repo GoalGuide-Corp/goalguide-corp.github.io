@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: #bee4ba; /* Light green */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 5px 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.logo {
+    height: 125px;
+    margin: 15px 3px;
+    border-radius: 35%;
+}
+
+.heading h3 {
+    margin: 10px 25px;
+    font-size: 1.6em;
+    font-style: italic;
+}
+
+/* Navigation */
+.topnav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #66cf5b#4CAF50; /* Green */
+    padding: 10px 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    margin-top: 1%;
+    border-radius: 35px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: rgb(87, 75, 75);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 35%;
+}
+
+.topnav a.active,
+.topnav a:hover {
+    background-color: #3e8e41; /* Darker green for hover and active */
+    color: #fff;
+    border-radius: 160%;
+}
+
+/* Sections */
+section {
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+    text-align: center;
+    color: #666;
+}
+
+/* Team Section */
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team {
+    padding-bottom: 16px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.25em;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.card p {
+    font-size: 1.0em;
+    color: #555;
+}
+
+/* Report Section */
+.content-section {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.course p{
+    font-size: 25px;
+    margin: 0.5%;
+    
+}
+
+/* Video Section */
+video {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .topnav {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .profile-pic {
+        width: 80px;
+        height: 80px;
+    }
+}
