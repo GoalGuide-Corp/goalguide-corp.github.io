@@ -179,13 +179,14 @@ p {
 }
 
 /* Video Section */
-video {
+iframe {
     display: block;
     margin: 20px auto;
     border: 1px solid #ddd;
     border-radius: 10px;
     max-width: 100%;
 }
+
 
 /* Footer */
 footer {
