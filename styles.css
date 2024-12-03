@@ -162,11 +162,20 @@ p {
     
 }
 
-/* Results Section */
+* Results Section */
 .result {
-    height: 35%;
-    width: 35%;
+    height: 25%;
+    width: 25%;
+}
 
+.result1 {
+    height: 45%;
+    width: 45%;
+}
+
+.result2 {
+    height: 25%;
+    width: 25%;
 }
 
 /* Video Section */
