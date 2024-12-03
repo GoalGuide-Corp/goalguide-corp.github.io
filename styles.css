@@ -162,6 +162,13 @@ p {
     
 }
 
+/* Results Section */
+.result {
+    height: 35%;
+    width: 35%;
+
+}
+
 /* Video Section */
 video {
     display: block;
